@@ -5,10 +5,11 @@
 #include "FleschAnalyzer.h"
 #include <iostream>
 using namespace std;
+
 int main()
 {
 	FleschAnalyzer fa = FleschAnalyzer("test.txt");
-	cout << fa.numOfSent;
+	cout << fa.GetTheresult() << endl;
     return 0;
 }
 
